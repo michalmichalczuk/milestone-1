@@ -1,0 +1,107 @@
+/*global*/
+
+body {
+    background-color: #f1f1f1;
+    font-family: sans-serif;
+    color: teal;
+    line-height: 1.5;
+}
+
+i {
+    margin-right: 10px;
+}
+
+hr {
+    border: 1px solid lightgray;
+    margin-right: 20px;
+}
+
+/*sidebar*/
+
+.sidebar {
+    display: inline-block;
+    width: 33%;
+    background-color: white;
+    border: 1px solid #f1f1f1;
+    box-shadow: 0 4px 8px 0 teal;
+    margin-bottom: 5px;
+}
+
+.sidebar_bottom {
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+.name {
+    position: relative;
+    bottom: 80px;
+    left: 20px;
+    color: black!important 
+}
+
+.photo {
+    height: 295px;
+}
+
+.bar {
+    background-color: #f1f1f1;
+    width: 90%;
+    border-radius: 25px;
+}
+
+.progressBar {
+    background-color: teal;
+    border-radius: 25px;
+    color: white;
+    text-align: center;
+}
+
+/*main*/
+
+.main {
+    float: right;
+    width: 65%;
+    margin-left: 5px;
+}
+
+.work_experience {
+    display: block;
+    background-color: white;
+    border: 1px solid #f1f1f1;
+    box-shadow: 0 4px 8px 0 teal;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.education {
+    display: block;
+    background-color: white;
+    border: 1px solid #f1f1f1;
+    box-shadow: 0 4px 8px 0 teal;
+    padding: 8px;
+}
+
+.main p {
+    color: black;
+}
+
+.current {
+    background-color: teal;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/*footer*/
+
+footer {
+    display: block;
+    background-color: #009688;
+    color: white;
+    text-align: center;
+    padding: 4px;
+}
